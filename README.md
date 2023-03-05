@@ -7,6 +7,7 @@ TypeScript template for use in backend or frontend projects.
 - TypeScript v4
 - Testing with Jest
 - Testing using Cucumber in a BDD fashion
+- Code coverage report using Jest
 - Linting with Eslint and Prettier
 - Pre-commit hooks with Husky
 - VS Code debugger scripts
@@ -44,3 +45,7 @@ Format your code.
 #### `npm run prettier-watch`
 
 Format your code in watch mode, waiting for file changes.
+
+#### `npm run coverage`
+
+Create and show the current code testing coverage with `npm test -- --coverage`.
