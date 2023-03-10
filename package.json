@@ -18,7 +18,8 @@
     "prettier-watch:default": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
     "test": "jest",
     "test:dev": "jest --watchAll",
-    "coverage": "npm test -- --coverage --collectCoverageFrom=\"./src/**\""
+    "coverage": "npm test -- --coverage --collectCoverageFrom=\"./src/**\"",
+    "arch": "npx depcruise src --include-only "^src" --config --output-type dot | dot -T svg > architecture.svg"
   },
   "husky": {
     "hooks": {
