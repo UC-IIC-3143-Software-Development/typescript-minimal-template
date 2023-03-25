@@ -16,11 +16,11 @@ export default class Account {
     this.transactions = [];
   }
 
-  credit(amount: number) {
+  executeCreditTransfer(amount: number) {
     this.transactions.push(new Transaction('credit', amount));
   }
 
-  debit(amount: number) {
+  executeDebitTransfer(amount: number) {
     this.transactions.push(new Transaction('debit', amount));
   }
 
