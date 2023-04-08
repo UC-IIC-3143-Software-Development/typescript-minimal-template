@@ -1,7 +1,7 @@
 import Account from '../entity/Account';
 import AccountBuilder from './AccountBuilder';
 
-export class AccountFactory {
+export class AccountObjectMother {
   static validAccountWithEmptyTransactions(): Account {
     return new AccountBuilder('11.111.11-1')
       .setBank('Banco de Chile')
