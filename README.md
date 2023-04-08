@@ -51,5 +51,6 @@ Format your code in watch mode, waiting for file changes.
 Create and show the current code testing coverage with `npm test -- --coverage --collectCoverageFrom="./src/**"`.
 The current coverage threshold is 70%, you can edit this at `jest.config.js` file.
 
+#### `npm run arch`
 
-# Esto es una nueva linea
+Generate the architecture diagram of the src/ folder using depcruise dependency. The executed command is: `npx depcruise src --include-only "^src" --config --output-type dot | dot -T svg > architecture.svg`
