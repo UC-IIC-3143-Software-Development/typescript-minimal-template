@@ -2,8 +2,8 @@ Try this checklist before creating a PR.
 
 - [ ] Tests.
 - [ ] Break into smaller PRs.
-- [ ] Blackenize code.
-- [ ] Sort imports.
+- [ ] Lint code.
+- [ ] Prettier code.
 - [ ] Did you install pre-commit?
 - [ ] Is this PR smaller than 800 LOC?
 
